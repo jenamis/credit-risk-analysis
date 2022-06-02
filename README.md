@@ -4,7 +4,7 @@
 The purpose of this project was to use supervised machine learning to build and evaluate models for predicting credit risk. Since credit risk is a case of unbalanced classification, with good loans greatly outnumbering bad ones, the project employed various models using resampling and ensemble methods. The performance of the models was compared to develop a recommendation for which, if any, should be used to predict credit risk. 
 
 ## Results
-All analysis was performed using a [credit dataset](Resources/LoanStats_2019Q1.csv) from peer-to-peer lending company LendingClub. Two Python scripts using Pandas in Jupyter Notebook were developed to preprocess the data and build and evaluate the machine learning models: one for the [models using resampling](Notebooks/credit_risk_resampling.ipynb) and the other for the [ensemble models](Notebooks/credit_risk_ensamble.ipynb). Details on the performance of each model are outlined below.
+All analysis was performed using a [credit dataset](Resources/LoanStats_2019Q1.csv) from peer-to-peer lending company LendingClub. Two Python scripts using Pandas in Jupyter Notebook were developed to preprocess the data and build and evaluate the machine learning models: one for the [models using resampling](Notebooks/credit_risk_resampling.ipynb) and the other for the [ensemble models](Notebooks/credit_risk_ensemble.ipynb). Details on the performance of each model are outlined below.
 
 ### Random Oversampling
 For the model using the RandomOverSampler algorithm:
